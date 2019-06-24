@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F1609E622BD5DFE0037AFC4 /* ContactHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1609E522BD5DFE0037AFC4 /* ContactHeader.swift */; };
+		9F1609EC22BD86B70037AFC4 /* ContactDetailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1609EB22BD86B70037AFC4 /* ContactDetailCollectionView.swift */; };
+		9F1BFE9222C0395200ACEFB3 /* EmployeeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE9122C0395200ACEFB3 /* EmployeeGroup.swift */; };
+		9F21013E22BC2F34004B3206 /* ContactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21013C22BC2F34004B3206 /* ContactCollectionViewCell.swift */; };
+		9F21013F22BC2F34004B3206 /* ContactCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F21013D22BC2F34004B3206 /* ContactCollectionViewCell.xib */; };
+		9FB67C3822BC698A00775913 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB67C3722BC698A00775913 /* Default-568h@2x.png */; };
+		9FB67C3A22BC6CCC00775913 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB67C3922BC6CCC00775913 /* Config.swift */; };
+		9FB67C3C22BC6D3300775913 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB67C3B22BC6D3300775913 /* UI.swift */; };
 		9FE33AB922B89D76006B8070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE33AB822B89D76006B8070 /* AppDelegate.swift */; };
-		9FE33ABB22B89D76006B8070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE33ABA22B89D76006B8070 /* ViewController.swift */; };
+		9FE33ABB22B89D76006B8070 /* ContactCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE33ABA22B89D76006B8070 /* ContactCollectionViewController.swift */; };
 		9FE33ABE22B89D76006B8070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE33ABC22B89D76006B8070 /* Main.storyboard */; };
 		9FE33AC122B89D76006B8070 /* FindMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FE33ABF22B89D76006B8070 /* FindMe.xcdatamodeld */; };
 		9FE33AC322B89D78006B8070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE33AC222B89D78006B8070 /* Assets.xcassets */; };
 		9FE33AC622B89D78006B8070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE33AC422B89D78006B8070 /* LaunchScreen.storyboard */; };
 		9FE33AD122B89D78006B8070 /* FindMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE33AD022B89D78006B8070 /* FindMeTests.swift */; };
 		9FE33ADC22B89D78006B8070 /* FindMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE33ADB22B89D78006B8070 /* FindMeUITests.swift */; };
+		9FE33AEA22B89DA1006B8070 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE33AE922B89DA1006B8070 /* Employee.swift */; };
+		9FE33AEC22B96507006B8070 /* Employer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE33AEB22B96507006B8070 /* Employer.swift */; };
+		9FE33AEE22B96516006B8070 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE33AED22B96516006B8070 /* Contact.swift */; };
+		9FE33AF222B977A3006B8070 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE33AF122B977A3006B8070 /* Data.swift */; };
+		9FE33B0522BBEB84006B8070 /* EmployeesData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE33B0322BBEB84006B8070 /* EmployeesData+CoreDataClass.swift */; };
+		9FE33B0622BBEB84006B8070 /* EmployeesData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE33B0422BBEB84006B8070 /* EmployeesData+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F1609E522BD5DFE0037AFC4 /* ContactHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactHeader.swift; sourceTree = "<group>"; };
+		9F1609EB22BD86B70037AFC4 /* ContactDetailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailCollectionView.swift; sourceTree = "<group>"; };
+		9F1BFE9122C0395200ACEFB3 /* EmployeeGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeGroup.swift; sourceTree = "<group>"; };
+		9F21013C22BC2F34004B3206 /* ContactCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F21013D22BC2F34004B3206 /* ContactCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactCollectionViewCell.xib; sourceTree = "<group>"; };
+		9FB67C3722BC698A00775913 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9FB67C3922BC6CCC00775913 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		9FB67C3B22BC6D3300775913 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
 		9FE33AB522B89D75006B8070 /* FindMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FE33AB822B89D76006B8070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FE33ABA22B89D76006B8070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FE33AB822B89D76006B8070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		9FE33ABA22B89D76006B8070 /* ContactCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCollectionViewController.swift; sourceTree = "<group>"; };
 		9FE33ABD22B89D76006B8070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FE33AC022B89D76006B8070 /* FindMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindMe.xcdatamodel; sourceTree = "<group>"; };
 		9FE33AC222B89D78006B8070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +71,12 @@
 		9FE33AD722B89D78006B8070 /* FindMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE33ADB22B89D78006B8070 /* FindMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMeUITests.swift; sourceTree = "<group>"; };
 		9FE33ADD22B89D78006B8070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE33AE922B89DA1006B8070 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		9FE33AEB22B96507006B8070 /* Employer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employer.swift; sourceTree = "<group>"; };
+		9FE33AED22B96516006B8070 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		9FE33AF122B977A3006B8070 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		9FE33B0322BBEB84006B8070 /* EmployeesData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmployeesData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9FE33B0422BBEB84006B8070 /* EmployeesData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmployeesData+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +104,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F21014022BC6744004B3206 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				9FE33AB822B89D76006B8070 /* AppDelegate.swift */,
+				9FE33AC722B89D78006B8070 /* Info.plist */,
+				9FE33ABF22B89D76006B8070 /* FindMe.xcdatamodeld */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		9FC8757622BC0453004B4D0C /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				9F1609E522BD5DFE0037AFC4 /* ContactHeader.swift */,
+				9F21013C22BC2F34004B3206 /* ContactCollectionViewCell.swift */,
+				9F21013D22BC2F34004B3206 /* ContactCollectionViewCell.xib */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		9FC8757722BC049B004B4D0C /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FE33ABA22B89D76006B8070 /* ContactCollectionViewController.swift */,
+				9F1609EB22BD86B70037AFC4 /* ContactDetailCollectionView.swift */,
+			);
+			path = "view controllers";
+			sourceTree = "<group>";
+		};
 		9FE33AAC22B89D75006B8070 = {
 			isa = PBXGroup;
 			children = (
+				9FB67C3722BC698A00775913 /* Default-568h@2x.png */,
 				9FE33AB722B89D75006B8070 /* FindMe */,
 				9FE33ACF22B89D78006B8070 /* FindMeTests */,
 				9FE33ADA22B89D78006B8070 /* FindMeUITests */,
@@ -99,13 +157,15 @@
 		9FE33AB722B89D75006B8070 /* FindMe */ = {
 			isa = PBXGroup;
 			children = (
-				9FE33AB822B89D76006B8070 /* AppDelegate.swift */,
-				9FE33ABA22B89D76006B8070 /* ViewController.swift */,
+				9FB67C3922BC6CCC00775913 /* Config.swift */,
+				9FB67C3B22BC6D3300775913 /* UI.swift */,
 				9FE33ABC22B89D76006B8070 /* Main.storyboard */,
-				9FE33AC222B89D78006B8070 /* Assets.xcassets */,
 				9FE33AC422B89D78006B8070 /* LaunchScreen.storyboard */,
-				9FE33AC722B89D78006B8070 /* Info.plist */,
-				9FE33ABF22B89D76006B8070 /* FindMe.xcdatamodeld */,
+				9F21014022BC6744004B3206 /* config */,
+				9FC8757722BC049B004B4D0C /* view controllers */,
+				9FC8757622BC0453004B4D0C /* ui */,
+				9FE33B0922BBFFAE006B8070 /* models */,
+				9FE33AC222B89D78006B8070 /* Assets.xcassets */,
 			);
 			path = FindMe;
 			sourceTree = "<group>";
@@ -126,6 +186,20 @@
 				9FE33ADD22B89D78006B8070 /* Info.plist */,
 			);
 			path = FindMeUITests;
+			sourceTree = "<group>";
+		};
+		9FE33B0922BBFFAE006B8070 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9F1BFE9122C0395200ACEFB3 /* EmployeeGroup.swift */,
+				9FE33AE922B89DA1006B8070 /* Employee.swift */,
+				9FE33AEB22B96507006B8070 /* Employer.swift */,
+				9FE33AED22B96516006B8070 /* Contact.swift */,
+				9FE33AF122B977A3006B8070 /* Data.swift */,
+				9FE33B0322BBEB84006B8070 /* EmployeesData+CoreDataClass.swift */,
+				9FE33B0422BBEB84006B8070 /* EmployeesData+CoreDataProperties.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +307,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FE33AC622B89D78006B8070 /* LaunchScreen.storyboard in Resources */,
+				9F21013F22BC2F34004B3206 /* ContactCollectionViewCell.xib in Resources */,
 				9FE33AC322B89D78006B8070 /* Assets.xcassets in Resources */,
+				9FB67C3822BC698A00775913 /* Default-568h@2x.png in Resources */,
 				9FE33ABE22B89D76006B8070 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +335,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FE33ABB22B89D76006B8070 /* ViewController.swift in Sources */,
+				9FE33AF222B977A3006B8070 /* Data.swift in Sources */,
+				9F1BFE9222C0395200ACEFB3 /* EmployeeGroup.swift in Sources */,
+				9F21013E22BC2F34004B3206 /* ContactCollectionViewCell.swift in Sources */,
+				9FE33AEE22B96516006B8070 /* Contact.swift in Sources */,
+				9FE33ABB22B89D76006B8070 /* ContactCollectionViewController.swift in Sources */,
+				9FE33AEA22B89DA1006B8070 /* Employee.swift in Sources */,
+				9F1609EC22BD86B70037AFC4 /* ContactDetailCollectionView.swift in Sources */,
+				9FB67C3C22BC6D3300775913 /* UI.swift in Sources */,
+				9FE33B0622BBEB84006B8070 /* EmployeesData+CoreDataProperties.swift in Sources */,
+				9F1609E622BD5DFE0037AFC4 /* ContactHeader.swift in Sources */,
 				9FE33AC122B89D76006B8070 /* FindMe.xcdatamodeld in Sources */,
+				9FB67C3A22BC6CCC00775913 /* Config.swift in Sources */,
+				9FE33AEC22B96507006B8070 /* Employer.swift in Sources */,
 				9FE33AB922B89D76006B8070 /* AppDelegate.swift in Sources */,
+				9FE33B0522BBEB84006B8070 /* EmployeesData+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +526,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLCZFAVBGV;
-				INFOPLIST_FILE = FindMe/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FindMe/config/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +545,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLCZFAVBGV;
-				INFOPLIST_FILE = FindMe/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FindMe/config/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

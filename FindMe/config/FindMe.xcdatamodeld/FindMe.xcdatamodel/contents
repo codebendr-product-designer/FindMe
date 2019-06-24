@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EmployeesData" representedClassName="EmployeesData" syncable="YES">
+        <attribute name="email" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" attributeType="String" syncable="YES"/>
+        <attribute name="projects" optional="YES" attributeType="Transformable" customClassName="[String]" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EmployeesData" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
+</model>
