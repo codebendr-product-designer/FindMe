@@ -10,6 +10,7 @@
 		9F1609E622BD5DFE0037AFC4 /* ContactHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1609E522BD5DFE0037AFC4 /* ContactHeader.swift */; };
 		9F1609EC22BD86B70037AFC4 /* ContactDetailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1609EB22BD86B70037AFC4 /* ContactDetailCollectionView.swift */; };
 		9F1BFE9222C0395200ACEFB3 /* EmployeeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE9122C0395200ACEFB3 /* EmployeeGroup.swift */; };
+		9F1BFE9422C054CF00ACEFB3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9F1BFE9322C054CD00ACEFB3 /* README.md */; };
 		9F21013E22BC2F34004B3206 /* ContactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21013C22BC2F34004B3206 /* ContactCollectionViewCell.swift */; };
 		9F21013F22BC2F34004B3206 /* ContactCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F21013D22BC2F34004B3206 /* ContactCollectionViewCell.xib */; };
 		9FB67C3822BC698A00775913 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB67C3722BC698A00775913 /* Default-568h@2x.png */; };
@@ -52,6 +53,7 @@
 		9F1609E522BD5DFE0037AFC4 /* ContactHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactHeader.swift; sourceTree = "<group>"; };
 		9F1609EB22BD86B70037AFC4 /* ContactDetailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailCollectionView.swift; sourceTree = "<group>"; };
 		9F1BFE9122C0395200ACEFB3 /* EmployeeGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeGroup.swift; sourceTree = "<group>"; };
+		9F1BFE9322C054CD00ACEFB3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		9F21013C22BC2F34004B3206 /* ContactCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCollectionViewCell.swift; sourceTree = "<group>"; };
 		9F21013D22BC2F34004B3206 /* ContactCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactCollectionViewCell.xib; sourceTree = "<group>"; };
 		9FB67C3722BC698A00775913 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		9FC8757622BC0453004B4D0C /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				9FB67C3B22BC6D3300775913 /* UI.swift */,
 				9F1609E522BD5DFE0037AFC4 /* ContactHeader.swift */,
 				9F21013C22BC2F34004B3206 /* ContactCollectionViewCell.swift */,
 				9F21013D22BC2F34004B3206 /* ContactCollectionViewCell.xib */,
@@ -157,9 +160,8 @@
 		9FE33AB722B89D75006B8070 /* FindMe */ = {
 			isa = PBXGroup;
 			children = (
-				9FB67C3922BC6CCC00775913 /* Config.swift */,
-				9FB67C3B22BC6D3300775913 /* UI.swift */,
 				9FE33ABC22B89D76006B8070 /* Main.storyboard */,
+				9F1BFE9322C054CD00ACEFB3 /* README.md */,
 				9FE33AC422B89D78006B8070 /* LaunchScreen.storyboard */,
 				9F21014022BC6744004B3206 /* config */,
 				9FC8757722BC049B004B4D0C /* view controllers */,
@@ -191,6 +193,7 @@
 		9FE33B0922BBFFAE006B8070 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				9FB67C3922BC6CCC00775913 /* Config.swift */,
 				9F1BFE9122C0395200ACEFB3 /* EmployeeGroup.swift */,
 				9FE33AE922B89DA1006B8070 /* Employee.swift */,
 				9FE33AEB22B96507006B8070 /* Employer.swift */,
@@ -306,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1BFE9422C054CF00ACEFB3 /* README.md in Resources */,
 				9FE33AC622B89D78006B8070 /* LaunchScreen.storyboard in Resources */,
 				9F21013F22BC2F34004B3206 /* ContactCollectionViewCell.xib in Resources */,
 				9FE33AC322B89D78006B8070 /* Assets.xcassets in Resources */,

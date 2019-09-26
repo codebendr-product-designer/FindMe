@@ -14,7 +14,4 @@ class  Config {
     static let ContactCollectionViewCell = "ContactCollectionViewCell"
     static let ContactHeader = "ContactHeader"
     static let ContactDetailSegue = "ContactDetailSegue"
-    
-
-    
 }

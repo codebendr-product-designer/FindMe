@@ -21,28 +21,19 @@ import CoreData
  }
  */
 
-struct Employee: Codable, Comparable, Hashable, Equatable {
+struct Employee: Codable, Comparable {
     var firstName: String
     var lastName: String
     var contactDetails: Contact
     var position: String
     var projects:[String]?
     
-    var hashValue: Int {
-        return firstName.hashValue ^ lastName.hashValue
-    }
-    
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(firstName)
-        hasher.combine(lastName)
-    }
-    
     enum CodingKeys: String, CodingKey {
         case firstName = "fname"
         case lastName = "lname"
         case contactDetails = "contact_details"
         case position
-       case projects
+        case projects
     }
 
     static func <(lhs: Employee, rhs: Employee) -> Bool {

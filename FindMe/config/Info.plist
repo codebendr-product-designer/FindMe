@@ -42,6 +42,6 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSContactsUsageDescription</key>
-	<string>Reads contacts and shows them in a list</string>
+	<string>Reads contacts and shows a button when a match is found</string>
 </dict>
 </plist>

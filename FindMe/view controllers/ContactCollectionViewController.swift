@@ -31,38 +31,41 @@ class ContactCollectionViewController: UICollectionViewController {
         
         UI.registerCollectionViewNib(identifier: Config.ContactCollectionViewCell, collectionView: self.collectionView)
         
-        do {
-            let employeesData = try context.fetch(EmployeesData.fetchRequest()) as! [EmployeesData]
-            if !employeesData.isEmpty {
-                
-                for data in employeesData {
-                    
-                    var existingItems = self.employeeDictionary[data.position!] ?? [Employee]()
-                    existingItems.append(Employee(firstName: data.firstName!, lastName: data.lastName!, contactDetails: Contact(email: data.email!, phone: data.phone), position: data.position!, projects: data.projects))
-                    
-                    self.employeeDictionary[data.position!] = existingItems
-                    
-                }
-                
-                self.employeeGroups = [EmployeeGroup]()
-                for employeeGroup in self.employeeDictionary {
-                    self.employeeGroups.append(EmployeeGroup(section: employeeGroup.key, employee: employeeGroup.value.sorted()))
-                }
-                employeeGroups.sort()
-                
-                collectionView.reloadData()
-                refreshControl.endRefreshing()
-                fetchEmployerListFromUrl()
-            } else {
-                fetchEmployerListFromUrl()
-            }
-            
-        } catch {
-            let alert = UI.showError {
-                self.fetchEmployerListFromUrl()
-            }
-            self.present(alert, animated: true)
-        }
+         fetchEmployerListFromUrl()
+        
+//        do {
+//            let employeesData = try context.fetch(EmployeesData.fetchRequest()) as! [EmployeesData]
+//            if !employeesData.isEmpty {
+//
+//                for data in employeesData {
+//
+//                    var existingItems = self.employeeDictionary[data.position!] ?? [Employee]()
+//                    existingItems.append(Employee(firstName: data.firstName!, lastName: data.lastName!, contactDetails: Contact(email: data.email!, phone: data.phone), position: data.position!, projects: data.projects))
+//
+//                    self.employeeDictionary[data.position!] = existingItems
+//
+//                }
+//
+//                self.employeeGroups = [EmployeeGroup]()
+//                for employeeGroup in self.employeeDictionary {
+//                    self.employeeGroups.append(EmployeeGroup(section: employeeGroup.key, employee: employeeGroup.value.sorted()))
+//                }
+//                employeeGroups.sort()
+//
+//                collectionView.reloadData()
+//                refreshControl.endRefreshing()
+//                fetchEmployerListFromUrl()
+//
+//            } else {
+//                fetchEmployerListFromUrl()
+//            }
+//
+//        } catch {
+//            let alert = UI.showError {
+//                self.fetchEmployerListFromUrl()
+//            }
+//            self.present(alert, animated: true)
+//        }
         
     }
     
@@ -85,13 +88,13 @@ class ContactCollectionViewController: UICollectionViewController {
                     existingItems.append(employee)
                     self.employeeDictionary[employee.position] = existingItems
                     
-                    let employeesData = EmployeesData(entity: EmployeesData.entity(), insertInto: self.context)
-                    employeesData.firstName = employee.firstName
-                    employeesData.lastName = employee.lastName
-                    employeesData.position = employee.position
-                    employeesData.projects = employee.projects
-                    employeesData.email = employee.contactDetails.email
-                    employeesData.phone = employee.contactDetails.phone
+//                    let employeesData = EmployeesData(entity: EmployeesData.entity(), insertInto: self.context)
+//                    employeesData.firstName = employee.firstName
+//                    employeesData.lastName = employee.lastName
+//                    employeesData.position = employee.position
+//                    employeesData.projects = employee.projects
+//                    employeesData.email = employee.contactDetails.email
+//                    employeesData.phone = employee.contactDetails.phone
                     
                 }
                 
@@ -106,7 +109,7 @@ class ContactCollectionViewController: UICollectionViewController {
                     self.collectionView.reloadData()
                 }
                 
-                self.appDelegate.saveContext()
+              //  self.appDelegate.saveContext()
                 
             } else {
                 
@@ -143,7 +146,6 @@ extension ContactCollectionViewController {
             
             let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: Config.ContactHeader, for:indexPath) as! ContactHeader
             
-            // let section = dataSource.sections[indexPath.section]
             let section = employeeGroups[indexPath.section].section
             headerView.section = section
             
@@ -160,7 +162,7 @@ extension ContactCollectionViewController {
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return employeeGroups[section].section.count
+        return employeeGroups[section].employee.count
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
